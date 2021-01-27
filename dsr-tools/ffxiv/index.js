@@ -1,5 +1,5 @@
 module.exports = {
-  lastUpdate: '2020-01-01T20:42:55+08:00',
+  lastUpdate: '2020-01-27T23:35:48+08:00',
   author: 'DSRKafuU <amzrk2.cc>',
   license: 'https://nga.178.com/read.php?tid=20339590',
   huntingData: {
@@ -9,17 +9,17 @@ module.exports = {
           server: '拉诺西亚',
           timeTable: ['09:00', '15:30', '22:00', ''],
           origin: '雷克兰德',
-          route: '湖-妖精乡-森林-沙漠-岛-海',
+          route: '',
         },
         {
           server: '神意之地',
           timeTable: ['', '15:00', '22:00', ''],
           origin: '雷克兰德',
-          route: '湖-妖精乡-森林-沙漠-岛-海',
+          route: '湖-岛-沙漠-妖精乡-森林-海',
         },
         {
           server: '萌芽池',
-          timeTable: ['08:00', '15:30', '22:00', ''],
+          timeTable: ['', '15:00', '22:00', ''],
           origin: '雷克兰德',
           route: '湖-岛-沙漠-妖精乡-森林-海',
         },
@@ -51,7 +51,7 @@ module.exports = {
           server: '晨曦王座',
           timeTable: ['', '13:00', '22:00', ''],
           origin: '雷克兰德',
-          route: '湖-岛-妖精乡-森林-沙漠-海',
+          route: '湖-岛-沙漠-妖精乡-森林-海',
         },
       ],
       stormblood: [
@@ -93,13 +93,13 @@ module.exports = {
         },
         {
           server: '沃仙曦染',
-          timeTable: ['', '', '', ''],
+          timeTable: ['10:30', '', '20:30', ''],
           origin: '基拉巴尼亚边区',
           route: '边-山-湖-海-草-延',
         },
         {
           server: '晨曦王座',
-          timeTable: ['09:30', '', '', ''],
+          timeTable: ['10:00', '', '', ''],
           origin: '',
           route: '',
         },
@@ -116,13 +116,13 @@ module.exports = {
         {
           server: '白金幻象',
           timeTable: ['', '13:00', '19:30', '02:00'],
-          origin: '雷克兰德',
+          origin: '黑风海',
           route: '',
         },
         {
           server: '白银乡',
-          timeTable: ['', '13:00', '21:00', ''],
-          origin: '雷克兰德',
+          timeTable: ['', '', '21:00', ''],
+          origin: '黑风海',
           route: '',
         },
         {
@@ -133,7 +133,7 @@ module.exports = {
         },
         {
           server: '旅人栈桥',
-          timeTable: ['', '15:00', '21:30', ''],
+          timeTable: ['', '14:30', '21:30', ''],
           origin: '雷克兰德',
         },
         {
@@ -150,8 +150,8 @@ module.exports = {
         },
         {
           server: '梦羽宝境',
-          timeTable: ['', '', '18:50', ''],
-          origin: '雷克兰德',
+          timeTable: ['', '11:00', '18:50', ''],
+          origin: '黑风海',
           route: '',
         },
       ],
@@ -159,19 +159,19 @@ module.exports = {
         {
           server: '潮风亭',
           timeTable: ['', '', '', ''],
-          origin: '基拉巴尼亚边区',
+          origin: '',
           route: '',
         },
         {
           server: '白金幻象',
-          timeTable: ['', '', '22:30', ''],
-          origin: '',
+          timeTable: ['', '', '20:30', ''],
+          origin: '基拉巴尼亚边区',
           route: '',
         },
         {
           server: '白银乡',
           timeTable: ['', '', '', ''],
-          origin: '基拉巴尼亚边区',
+          origin: '',
           route: '',
         },
         {
@@ -182,26 +182,26 @@ module.exports = {
         },
         {
           server: '旅人栈桥',
-          timeTable: ['', '13:30', '20:30', ''],
+          timeTable: ['', '', '', ''],
           origin: '',
           route: '',
         },
         {
           server: '拂晓之间',
-          timeTable: ['', '', '20:30', ''],
+          timeTable: ['', '13:00', '', ''],
           origin: '基拉巴尼亚边区',
           route: '',
         },
         {
           server: '龙巢神殿',
           timeTable: ['', '', '', ''],
-          origin: '基拉巴尼亚边区',
+          origin: '',
           route: '',
         },
         {
           server: '梦羽宝境',
           timeTable: ['', '', '22:30', ''],
-          origin: '',
+          origin: '基拉巴尼亚边区',
           route: '',
         },
       ],
@@ -210,7 +210,7 @@ module.exports = {
       shadowbringers: [
         {
           server: '紫水栈桥',
-          timeTable: ['07:15', '14:00', '21:00', ''],
+          timeTable: ['', '14:00', '21:00', ''],
           origin: '雷克兰德',
           route: '湖-岛-沙漠-妖精乡-森林-海',
         },
@@ -222,7 +222,7 @@ module.exports = {
         },
         {
           server: '静语庄园',
-          timeTable: ['09:00', '', '22:00', ''],
+          timeTable: ['', '', '22:00', ''],
           origin: '雷克兰德',
           route: '湖-岛-沙漠-妖精乡-森林-海',
         },
@@ -234,7 +234,7 @@ module.exports = {
         },
         {
           server: '海猫茶屋',
-          timeTable: ['08:30', '15:30', '22:00', ''],
+          timeTable: ['', '13:30', '21:30', ''],
           origin: '雷克兰德',
           route: '湖-岛-沙漠-妖精乡-森林-海',
         },
@@ -242,13 +242,13 @@ module.exports = {
           server: '柔风海湾',
           timeTable: ['', '15:00', '22:00', ''],
           origin: '雷克兰德',
-          route: '湖-妖精乡-岛-沙漠-海-森林',
+          route: '湖-岛-沙漠-妖精乡-森林-海',
         },
         {
           server: '琥珀原',
-          timeTable: ['', '', '21:00', '04:00'],
+          timeTable: ['', '13:30', '21:00', '04:00'],
           origin: '雷克兰德',
-          route: '',
+          route: '湖-岛-沙漠-妖精乡-森林-海',
         },
       ],
       stormblood: [
@@ -260,15 +260,15 @@ module.exports = {
         },
         {
           server: '摩杜纳',
-          timeTable: ['', '', '', ''],
-          origin: '',
-          route: '',
+          timeTable: ['', '', '21:00', ''],
+          origin: '基拉巴尼亚边区',
+          route: '边-山-湖-海-草-延',
         },
         {
           server: '静语庄园',
           timeTable: ['', '', '', ''],
-          origin: '基拉巴尼亚边区',
-          route: '边-山-湖-海-草-延',
+          origin: '',
+          route: '',
         },
         {
           server: '延夏',
@@ -278,21 +278,21 @@ module.exports = {
         },
         {
           server: '海猫茶屋',
-          timeTable: ['', '13:30', '20:00', ''],
+          timeTable: ['', '13:00', '20:00', ''],
           origin: '延夏',
           route: '延-草-海-边-山-湖',
         },
         {
           server: '柔风海湾',
-          timeTable: ['', '', '20:00', ''],
+          timeTable: ['', '', '', ''],
           origin: '红玉海',
           route: '',
         },
         {
           server: '琥珀原',
-          timeTable: ['', '13:00', '20:00', ''],
+          timeTable: ['', '13:00', '20:00', '03:00'],
           origin: '基拉巴尼亚边区',
-          route: '边-山-湖-海-草-延',
+          route: '边-山-湖-海-延-草',
         },
       ],
     },

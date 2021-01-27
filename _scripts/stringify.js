@@ -15,7 +15,7 @@ function stringifyJSON(filePath) {
       if (typeof file === 'object') {
         let json;
         try {
-          console.log(`Processing '${filePath}'`);
+          console.log(`processing '${filePath}'`);
           json = JSON.stringify(file);
         } catch (e) {
           return reject(e);
@@ -28,10 +28,10 @@ function stringifyJSON(filePath) {
           return reject(e);
         }
       } else {
-        return reject('JS file format error');
+        return reject('js file format error');
       }
     } else {
-      return reject('File not exist');
+      return reject('file not exist');
     }
   });
 }
@@ -43,13 +43,13 @@ async function add(path) {
 
 (async function () {
   /* DSRToolS */
-  add('./dsr-tools/ffxiv'); // FFXIV
-  add('./dsr-tools/home'); // Home
-  add('./dsr-tools/minecraft'); // MC
+  add('../dsr-tools/ffxiv'); // FFXIV
+  add('../dsr-tools/home'); // Home
+  add('../dsr-tools/minecraft'); // MC
 
   try {
     await Promise.all(process);
-    console.log('Process done.');
+    console.log('process done');
   } catch (e) {
     console.error(e);
   }
