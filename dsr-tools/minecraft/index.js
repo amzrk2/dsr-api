@@ -7,6 +7,7 @@ while (i <= 5) {
 module.exports = {
   slides: imageArr,
   versions: [
+    'v1.16.5.210125',
     'v1.16.3.200924',
     'v1.16.2.200906',
     'v1.15.1.200103',
@@ -40,14 +41,6 @@ module.exports = {
   ],
   modList: [
     {
-      name: 'Custom Skin Loader',
-      desc: '自定义皮肤加载器',
-    },
-    {
-      name: 'Durability Viewer',
-      desc: '耐久显示',
-    },
-    {
       name: 'Hwyla',
       desc: '信息高亮显示',
     },
@@ -70,16 +63,17 @@ module.exports = {
   ],
   downloads: [
     {
-      name: '完整版 - 354M',
-      link: 'https://pan.baidu.com/s/19605Tq9u7ApLF6p-m-fZmw',
-      code: 'kudd',
+      name: '完整版',
+      link:
+        'https://amzrk2.coding.net/public/dsr-archive/dsr-archive-a/git/files/master/minecraft/MC_DSR_1.16.5.210125.7z',
+      code: '382M',
     },
     {
-      name: '精简版 - 45M',
-      link: 'https://pan.baidu.com/s/1s5K_o1XZJ8gbDPZSISiWCw',
-      code: 'kuud',
+      name: '精简版',
+      link:
+        'https://amzrk2.coding.net/public/dsr-archive/dsr-archive-a/git/files/master/minecraft/MC_DSR_1.16.5.210125_Lite.7z',
+      code: '73M',
     },
   ],
-  alert:
-    '游玩正版服务器或支持皮肤读取的学习用服务器的玩家，可以自行删除或保留 CustomSkinLoader 模组以配合自身的需求',
+  alert: '进入游戏前请先根据根目录 README 提示安装 Java 11 LTS 代替陈旧的 Java 8',
 };
