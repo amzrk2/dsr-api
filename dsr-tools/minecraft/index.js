@@ -7,7 +7,7 @@ while (i <= 5) {
 module.exports = {
   slides: imageArr,
   versions: [
-    'v1.16.5.210125',
+    'v1.16.5.210131',
     'v1.16.3.200924',
     'v1.16.2.200906',
     'v1.15.1.200103',
@@ -41,6 +41,10 @@ module.exports = {
   ],
   modList: [
     {
+      name: 'Custom Skin Loader',
+      desc: '自定义皮肤读取',
+    },
+    {
       name: 'Hwyla',
       desc: '信息高亮显示',
     },
@@ -65,15 +69,15 @@ module.exports = {
     {
       name: '完整版',
       link:
-        'https://amzrk2.coding.net/public/dsr-archive/dsr-archive-a/git/files/master/minecraft/MC_DSR_1.16.5.210125.7z',
+        'https://amzrk2.coding.net/public/dsr-archive/dsr-archive-a/git/files/master/minecraft/MC_DSR_1.16.5.210131.7z',
       code: '382M',
     },
     {
       name: '精简版',
       link:
-        'https://amzrk2.coding.net/public/dsr-archive/dsr-archive-a/git/files/master/minecraft/MC_DSR_1.16.5.210125_Lite.7z',
-      code: '73M',
+        'https://amzrk2.coding.net/public/dsr-archive/dsr-archive-a/git/files/master/minecraft/MC_DSR_1.16.5.210131_Lite.7z',
+      code: '74M',
     },
   ],
-  alert: '进入游戏前请先根据根目录 README 提示安装 Java 11 LTS 代替陈旧的 Java 8',
+  alert: '进入游戏前请先根据 README 提示安装 Java 11 LTS 代替陈旧的 Java 8',
 };
