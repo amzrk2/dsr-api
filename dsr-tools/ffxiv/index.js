@@ -1,6 +1,6 @@
 module.exports = {
   lastUpdate: '2020-01-27T23:35:48+08:00',
-  author: 'DSRKafuU <amzrk2.cc>',
+  author: 'DSRKafuU (https://dsrkafuu.co)',
   license: 'https://nga.178.com/read.php?tid=20339590',
   huntingData: {
     chocobo: {
