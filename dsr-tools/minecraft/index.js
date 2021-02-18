@@ -69,13 +69,13 @@ module.exports = {
     {
       name: '完整版',
       link:
-        'https://dsrkafuu.coding.net/public/dsr-archive/dsr-archive-a/git/files/master/minecraft/MC_DSR_1.16.5.210131.7z',
+        'https://kafuu.coding.net/public/dsr-archive/dsr-archive-a/git/files/master/minecraft/MC_DSR_1.16.5.210131.7z',
       code: '382M',
     },
     {
       name: '精简版',
       link:
-        'https://dsrkafuu.coding.net/public/dsr-archive/dsr-archive-a/git/files/master/minecraft/MC_DSR_1.16.5.210131_Lite.7z',
+        'https://kafuu.coding.net/public/dsr-archive/dsr-archive-a/git/files/master/minecraft/MC_DSR_1.16.5.210131_Lite.7z',
       code: '74M',
     },
   ],
