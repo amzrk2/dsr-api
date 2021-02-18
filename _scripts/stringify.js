@@ -46,6 +46,7 @@ async function add(path) {
   add('../dsr-tools/ffxiv'); // FFXIV
   add('../dsr-tools/home'); // Home
   add('../dsr-tools/minecraft'); // MC
+  add('../dsr-tools/sdv'); // SDV
 
   try {
     await Promise.all(process);
