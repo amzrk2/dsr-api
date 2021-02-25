@@ -1,5 +1,5 @@
 module.exports = {
-  lastUpdate: '2020-02-15T19:48:12+08:00',
+  lastUpdate: '2020-02-25T19:08:10+08:00',
   author: 'DSRKafuU (https://dsrkafuu.su)',
   license: 'https://nga.178.com/read.php?tid=20339590',
   huntingData: {
@@ -150,7 +150,7 @@ module.exports = {
         },
         {
           server: '梦羽宝境',
-          timeTable: ['', '', '', ''],
+          timeTable: ['', '', '18:50', ''],
           origin: '黑风海',
           route: '',
         },
@@ -164,7 +164,7 @@ module.exports = {
         },
         {
           server: '白金幻象',
-          timeTable: ['', '', '', ''],
+          timeTable: ['', '', '20:30', ''],
           origin: '基拉巴尼亚边区',
           route: '',
         },
@@ -182,7 +182,7 @@ module.exports = {
         },
         {
           server: '旅人栈桥',
-          timeTable: ['', '', '', ''],
+          timeTable: ['', '', '20:30', ''],
           origin: '',
           route: '',
         },
@@ -200,7 +200,7 @@ module.exports = {
         },
         {
           server: '梦羽宝境',
-          timeTable: ['', '', '', ''],
+          timeTable: ['', '', '22:30', ''],
           origin: '基拉巴尼亚边区',
           route: '',
         },
