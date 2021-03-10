@@ -1,5 +1,5 @@
 module.exports = {
-  lastUpdate: '2020-02-25T19:08:10+08:00',
+  lastUpdate: '2020-03-10T18:43:36+08:00',
   author: 'DSRKafuU (https://dsrkafuu.su)',
   license: 'https://nga.178.com/read.php?tid=20339590',
   huntingData: {
@@ -31,7 +31,7 @@ module.exports = {
         },
         {
           server: '红玉海',
-          timeTable: ['', '13:00', '20:00', '03:00'],
+          timeTable: ['', '13:00', '20:00', ''],
           origin: '雷克兰德',
           route: '湖-妖精乡-森林-沙漠-岛-海',
         },
@@ -99,7 +99,7 @@ module.exports = {
         },
         {
           server: '晨曦王座',
-          timeTable: ['10:00', '', '', ''],
+          timeTable: ['11:00', '', '', ''],
           origin: '',
           route: '',
         },
@@ -150,7 +150,7 @@ module.exports = {
         },
         {
           server: '梦羽宝境',
-          timeTable: ['', '', '18:50', ''],
+          timeTable: ['10:30', '', '18:50', ''],
           origin: '黑风海',
           route: '',
         },
@@ -176,7 +176,7 @@ module.exports = {
         },
         {
           server: '神拳痕',
-          timeTable: ['', '', '22:00', ''],
+          timeTable: ['', '', '', ''],
           origin: '红玉海',
           route: '',
         },
@@ -194,7 +194,7 @@ module.exports = {
         },
         {
           server: '龙巢神殿',
-          timeTable: ['', '', '20:00', ''],
+          timeTable: ['', '13:30', '20:00', ''],
           origin: '',
           route: '',
         },
@@ -228,13 +228,13 @@ module.exports = {
         },
         {
           server: '延夏',
-          timeTable: ['', '12:30', '20:30', ''],
+          timeTable: ['', '', '20:30', ''],
           origin: '雷克兰德',
           route: '湖-妖精乡-森林-沙漠-岛-海',
         },
         {
           server: '海猫茶屋',
-          timeTable: ['', '13:30', '21:30', ''],
+          timeTable: ['', '14:30', '21:30', ''],
           origin: '雷克兰德',
           route: '湖-岛-沙漠-妖精乡-森林-海',
         },
