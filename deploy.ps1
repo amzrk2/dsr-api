@@ -13,6 +13,7 @@ Pause
 git add .
 $nowTime = Get-Date -Format "yyyy-MM-dd HH:mm:ss K"
 git commit -m $nowTime
+git pull --rebase
 git push origin
 Write-Host "finished..."
 Pause
