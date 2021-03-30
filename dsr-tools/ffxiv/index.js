@@ -1,4 +1,6 @@
 module.exports = {
+  message:
+    '目前鸟、猫区缺失有效的时间表数据来源, 有了解来自群、狩猎贝等的最新时间安排的玩家方便请通过右下角客服或 NGA 反馈, 非常感谢',
   lastUpdate: '2020-03-10T18:43:36+08:00',
   author: 'DSRKafuU (https://dsrkafuu.su)',
   license: 'https://nga.178.com/read.php?tid=20339590',
