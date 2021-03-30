@@ -1,7 +1,7 @@
 module.exports = {
   message:
     '目前鸟、猫区缺失有效的时间表数据来源, 有了解来自群、狩猎贝等的最新时间安排的玩家方便请通过右下角客服或 NGA 反馈, 非常感谢',
-  lastUpdate: '2020-03-10T18:43:36+08:00',
+  lastUpdate: '2020-03-30T20:24:48+08:00',
   author: 'DSRKafuU (https://dsrkafuu.su)',
   license: 'https://nga.178.com/read.php?tid=20339590',
   huntingData: {
@@ -27,7 +27,7 @@ module.exports = {
         },
         {
           server: '幻影群岛',
-          timeTable: ['', '', '21:00', '04:00'],
+          timeTable: ['', '13:00', '20:00', '02:00'],
           origin: '黑风海',
           route: '海-森林-妖精乡-湖-沙漠-岛',
         },
