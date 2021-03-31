@@ -1,13 +1,12 @@
 /*! FFXIV Hunting API Proxy | DSRKafuU (https://dsrkafuu.su) | Copyright (c) Apache-2.0 License */
 
 // 数据来源
-const GH_SRC =
+const SRC =
   'https://raw.githubusercontent.com/dsrkafuu/dsr-api/main/dsr-tools/ffxiv/index.min.json';
-const CDN_SRC = 'https://cdn.jsdelivr.net/gh/dsrkafuu/dsr-api@1/dsr-tools/ffxiv/index.min.json';
 // 允许的 CORS 来源
 const ALLOWED_ORIGIN = [/^https?:\/\/.*dsrkafuu\.su$/, /^https?:\/\/localhost/];
 // 是否拒绝所有无 Origin 请求
-const ALLOW_NO_ORIGIN = false;
+const ALLOW_NO_ORIGIN = true;
 // 缓存控制
 const CACHE_CONTROL = 'public, no-cache, must-revalidate';
 
@@ -67,7 +66,7 @@ async function handleRequest(req, event) {
   // 若未命中 cache
   if (!res) {
     cacheStatus = 'MISS';
-    res = await fetch(GH_SRC);
+    res = await fetch(SRC);
     event.waitUntil(cache.put(cacheKey, res.clone()));
   }
 
@@ -76,14 +75,14 @@ async function handleRequest(req, event) {
   // cache 状态
   res.headers.set('X-CF-Cache-Status', cacheStatus);
   // CORS
-  res.headers.set('Access-Control-Allow-Origin', rawOrigin);
+  res.headers.set('Access-Control-Allow-Origin', rawOrigin || '*');
   res.headers.set('Cache-Control', CACHE_CONTROL);
   // 设置 Vary 头使浏览器正确进行缓存
   const vary = res.headers.get('Vary') || '';
-  if (!vary.exec(/[aA]ccept-[eE]ncoding/)) {
+  if (!vary.match(/[aA]ccept-[eE]ncoding/)) {
     res.headers.append('Vary', 'Accept-Encoding');
   }
-  if (!vary.exec(/[oO]rigin/)) {
+  if (!vary.match(/[oO]rigin/)) {
     res.headers.append('Vary', 'Origin');
   }
   return res;
