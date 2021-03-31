@@ -6,7 +6,7 @@ const SRC =
 // 允许的 CORS 来源
 const ALLOWED_ORIGIN = [/^https?:\/\/.*dsrkafuu\.su$/, /^https?:\/\/localhost/];
 // 是否拒绝所有无 Origin 请求
-const ALLOW_NO_ORIGIN = true;
+const ALLOW_NO_ORIGIN = false;
 // 缓存控制
 const CACHE_CONTROL = 'public, no-cache, must-revalidate';
 
