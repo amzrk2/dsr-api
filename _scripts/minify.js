@@ -1,12 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
-function stringifyJSON(filePath) {
-  if (!filePath.match(/\.js$/)) {
+function minifyJSON(filePath) {
+  if (!filePath.match(/\.json$/)) {
     if (filePath.endsWith('/')) {
-      filePath = filePath.concat('index.js');
+      filePath = filePath.concat('index.json');
     } else {
-      filePath = filePath.concat('/index.js');
+      filePath = filePath.concat('/index.json');
     }
   }
   return new Promise((resolve, reject) => {
@@ -15,20 +15,19 @@ function stringifyJSON(filePath) {
       if (typeof file === 'object') {
         let json;
         try {
-          console.log(`processing '${filePath}'`);
           json = JSON.stringify(file);
         } catch (e) {
           return reject(e);
         }
         try {
-          filePath = filePath.replace(/\.js$/, '.json');
+          filePath = filePath.replace(/\.json$/, '.min.json');
           fs.writeFileSync(path.resolve(__dirname, filePath), json, 'utf8');
           return resolve(filePath);
         } catch {
           return reject(e);
         }
       } else {
-        return reject('js file format error');
+        return reject('json file parsing error');
       }
     } else {
       return reject('file not exist');
@@ -38,11 +37,10 @@ function stringifyJSON(filePath) {
 
 const process = [];
 async function add(path) {
-  process.push(stringifyJSON(path));
+  process.push(minifyJSON(path));
 }
 
 (async function () {
-  /* DSRToolS */
   add('../dsr-tools/ffxiv'); // FFXIV
   add('../dsr-tools/home'); // Home
   add('../dsr-tools/minecraft'); // MC
@@ -50,7 +48,6 @@ async function add(path) {
 
   try {
     await Promise.all(process);
-    console.log('process done');
   } catch (e) {
     console.error(e);
   }

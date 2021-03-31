@@ -3,9 +3,9 @@
 # Run PowerShell as administrator and type:
 # set-executionpolicy remotesigned
 
-Write-Host "ready to process JSON files..."
+Write-Host "ready to minify JSON files..."
 Pause
-node "./_scripts/stringify.js"
+node "./_scripts/minify.js"
 
 Write-Host "ready to commit and push..."
 Pause
