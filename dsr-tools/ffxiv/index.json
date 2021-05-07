@@ -1,5 +1,5 @@
 {
-  "message": "已知问题：当前无法正确转换夏令时 (DST)，将尽快进行优化",
+  "message": "夏令时 (DST) 转换已修复，手动时区及夏令时切换正在测试中",
   "update": "2020-05-05T13:00:51+08:00",
   "author": "DSRKafuU (https://dsrkafuu.su)",
   "license": "https://nga.178.com/read.php?tid=20339590",
