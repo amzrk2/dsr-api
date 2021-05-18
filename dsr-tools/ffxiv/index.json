@@ -1,6 +1,6 @@
 {
-  "message": "夏令时 (DST) 转换已修复，手动时区及夏令时切换正在测试中",
-  "update": "2020-05-05T13:00:51+08:00",
+  "message": "",
+  "update": "2020-05-18T16:30:53+08:00",
   "author": "DSRKafuU (https://dsrkafuu.su)",
   "license": "https://nga.178.com/read.php?tid=20339590",
   "data": {
@@ -261,14 +261,14 @@
           "times": ["", "", "", "22:00"],
           "origin": "雷克兰德",
           "route": "湖-岛-沙-妖-森-海",
-          "comment": ""
+          "comment": "早班周末限定"
         },
         {
           "server": "延夏",
           "times": ["", "", "12:30", "20:30"],
           "origin": "雷克兰德",
           "route": "湖-妖-森-沙-岛-海",
-          "comment": ""
+          "comment": "午班周末限定"
         },
         {
           "server": "海猫茶屋",
