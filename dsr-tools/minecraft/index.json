@@ -1,13 +1,13 @@
 {
-  "s": ["2018_1.jpg", "2018_2.jpg", "2018_3.jpg", "2018_4.jpg"],
-  "dt": 1624289112220,
-  "i": [
+  "slides": ["2018_1.jpg", "2018_2.jpg", "2018_3.jpg", "2018_4.jpg"],
+  "date": 1624289112220,
+  "info": [
     "所有游戏帐户将自动保存在本地注册表中",
     "整合包已打包微软 OpenJDK 运行环境",
     "其他可选 Java 版本下载请至 &quot;相关链接&quot; 部分",
     "如对启动器或游戏有其他疑问请查看帮助页面"
   ],
-  "m": [
+  "mods": [
     "DSR Package 1.16.5.210621",
     "Microsoft OpenJDK 11.0.11.9.1",
     "Minecraft 1.16.5",
@@ -23,10 +23,10 @@
     "Roughly Enough Items 6.0.0.232",
     "Voxel Map 1.10.12"
   ],
-  "l": [
+  "links": [
     ["整合包发布页", "https://tools.dsrkafuu.su/game/minecraft"],
     ["其他 Java 下载", "https://dl.dsrkafuu.su/java/"],
     ["作者个人主页", "https://dsrkafuu.su"]
   ],
-  "dl": "https://dl.dsrkafuu.su/game/MC_DSR_1.16.5.210621.7z"
+  "download": "https://dl.dsrkafuu.su/game/MC_DSR_1.16.5.210621.7z"
 }
