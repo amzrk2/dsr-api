@@ -24,8 +24,11 @@
   ],
   "links": [
     ["整合包发布页", "https://tools.dsrkafuu.su/game/minecraft"],
-    ["其他 Java 下载", "https://dl.dsrkafuu.su/java/"],
+    [
+      "其他 Java 下载",
+      "https://dl.dsrkafuu.su/aHR0cHM6Ly9rYWZ1dS5jb2RpbmcubmV0L3B1YmxpYy9kc3ItYXJjaGl2ZS9qYXZhL2dpdC9maWxlcw"
+    ],
     ["作者个人主页", "https://dsrkafuu.su"]
   ],
-  "download": "https://dl.dsrkafuu.su/game/MC_DSR_1.16.5.210623.7z"
+  "download": "https://dl.dsrkafuu.su/aHR0cHM6Ly9rYWZ1dS5jb2RpbmcubmV0L3B1YmxpYy9kc3ItYXJjaGl2ZS9nYW1lL2dpdC9maWxlcy9tYXN0ZXIvTUNfRFNSXzEuMTYuNS4yMTA2MjMuN3o"
 }
